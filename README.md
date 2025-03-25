@@ -18,7 +18,7 @@ ValidadorInfo.class faz toda as validaçoes do projeto, desde os DTOs virem null
 <li> DELETE localhost:8080/animal/{id} -> apaga de vez do banco de dados</li>
 <li>GET localhost:8080/animal/{id} -> traz info de um animal pelo id</li>
 <li>GET localhost:8080/animal/busca? -> temos 3 parametros tipo,raça,nome (primeiroNome do Animal), escolha somente 1 dos parametros e faça a busca<br>
-EXCEMPLO:localhost:8080/animal/busca?tipo=gato, fiquei na duvida de como fazer a validaçao de todos e gerar buscas conjunta, vou ler mais sobre! </li></ul>
+EXEMPLO:localhost:8080/animal/busca?tipo=gato, fiquei na duvida de como fazer a validaçao de todos e gerar buscas conjunta, vou ler mais sobre! </li></ul>
 
 <p>Obs: tem um class de nome:a! ta la só pq quando criavaa pasta em pasta meio q conjuntava as pasta em 1 e bugava</p>
 <p>Api bem cru, pra testar os conceitos e ver situaçoes e como resolver, como a do gerar busca conjuntas.<br>
